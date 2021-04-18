@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="04/17/2021 19:43:37" ReportInfo.Modified="04/17/2021 20:43:40" ReportInfo.CreatorVersion="2021.2.0.0">
+  <Dictionary>
+    <BusinessObjectDataSource Name="Persons" ReferenceName="Persons" DataType="System.Int32" Enabled="true">
+      <Column Name="Id" DataType="System.Int32"/>
+      <Column Name="Name" DataType="System.String"/>
+      <Column Name="Surname" DataType="System.String"/>
+      <Column Name="Age" DataType="System.Int32"/>
+    </BusinessObjectDataSource>
+  </Dictionary>
+  <ReportPage Name="Page1" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8"/>
+    <PageHeaderBand Name="PageHeader1" Top="41.8" Width="718.2" Height="28.35">
+      <TextObject Name="Text2" Left="160.65" Width="94.5" Height="18.9" Text="Name" Font="Arial, 10pt"/>
+      <TextObject Name="Text4" Left="387.45" Width="94.5" Height="18.9" Text="Surname" Font="Arial, 10pt"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="74.15" Width="718.2" Height="75.6" DataSource="Persons">
+      <TextObject Name="Text1" Left="160.65" Top="28.35" Width="94.5" Height="18.9" Text="[Persons.Name]" Font="Arial, 10pt"/>
+      <TextObject Name="Text3" Left="387.45" Top="28.35" Width="94.5" Height="18.9" Text="[Persons.Surname]" Font="Arial, 10pt"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="153.75" Width="718.2" Height="18.9"/>
+  </ReportPage>
+</Report>
