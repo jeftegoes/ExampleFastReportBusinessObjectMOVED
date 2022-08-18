@@ -1,12 +1,12 @@
-![Template-Portifolio-Html5-Css3-Jquery-Bootstrap](https://github.com/jeftegoesdev/ExampleFastReportBusinessObject/blob/master/Images/BusinessObjectIntoFrxFile.png?raw=true)
+![Template-Portifolio-Html5-Css3-Jquery-Bootstrap](Images/BusinessObjectIntoFrxFile.png)
 
 ## What is this project
 
 This is a small / simple example to demonstrate use with BusinessObjeect using FastReport 
 
-## Project Type Console
+## Project Type `console`
 
-.Net Core
+.NET Core 5
 
 ## Libraries used
 
